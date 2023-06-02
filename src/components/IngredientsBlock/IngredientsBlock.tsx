@@ -12,7 +12,6 @@ interface IProps {
 const IngredientsBlock = ({ingredients, addIngredient, removeIngredient}: IProps) => {
     return (
         <div className="ingredients-block">
-            тут ингредиенты
             {INGREDIENTS.map((ingredient, index) => (
                 <IngredientsBtns
                     key={index}

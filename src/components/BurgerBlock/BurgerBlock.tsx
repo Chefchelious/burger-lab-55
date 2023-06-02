@@ -13,7 +13,7 @@ interface IProps {
 
 const BurgerBlock = ({ingredients, burgerPrice}: IProps )=> {
     return (
-        <div className="burger-block">тут буит бургер
+        <div className="burger-block">
             <div className="Burger">
                 <BreadTop />
                 {
